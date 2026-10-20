@@ -12,6 +12,9 @@ path_output = Path(__file__).parent / "output"
 
 def main():
 
+    # creamos la carpeta de salida antes del log, si no existe truena
+    path_output.mkdir(parents=True, exist_ok=True)
+
     # configuramos el logging para que guarde la información en un archivo de log
     logging.basicConfig(
         filename=path_output / "ejecucion.log",

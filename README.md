@@ -36,12 +36,15 @@ Para consultarlos, abre la carpeta `output/` en el explorador de archivos o abre
 
 ## Uso de herramientas de IA
 
-Usé Claude Code (Anthropic) como apoyo en dos aspectos:
+Usé Claude Code (Anthropic) como apoyo en los siguientes aspectos:
 
 - **Configuración del entorno de trabajo:** creación del entorno virtual, instalación de
   dependencias, `requirements.txt`, `.gitignore` e inicialización del repositorio.
 - **Consultoría:** como guía para resolver dudas y consultar documentación (lectura de XML
   con namespaces, pandas, openpyxl, logging).
 - **Documentación:** apoyo en la redacción de este README y de la documentación del proyecto.
+- **Pruebas y revisión de código:** ejecución del programa para verificar los resultados y
+  detección de errores y bugs (por ejemplo, un import incorrecto, filas de incidencias con
+  distinto número de columnas y el fallo al crear el log cuando no existía la carpeta `output/`).
 
 El código de la solución lo escribí yo, y puedo explicar cada parte.

@@ -1,0 +1,65 @@
+2026-10-19 22:52:06,412 | INFO | Iniciando revisión de CFDI en /Users/santiago/Desktop/Prueba Técnica – Jesús Santiago Velasco/cfdis
+2026-10-19 22:52:06,417 | WARNING | factura_08.xml: no existe el archivo
+2026-10-19 22:52:06,417 | WARNING | factura_09.xml: no existe el archivo
+2026-10-19 22:52:06,420 | WARNING | factura_19.xml: xml dañado: unclosed token: line 6, column 4
+2026-10-19 22:52:06,421 | WARNING | factura_20.xml: error: no es cfdi, tag: Pedido
+2026-10-19 22:52:06,432 | WARNING | factura_04.xml: uuid duplicado C0433CBD-7DAB-E929-C4A3-34BFC6CD75E9 (original: factura_03.xml), se descarta
+2026-10-19 22:52:06,433 | WARNING | factura_11.xml: uuid duplicado 7608D942-5D11-1A9D-5E6C-9992B5FB12E0 (original: factura_10.xml), se descarta
+2026-10-19 22:52:06,625 | INFO | Reporte de errores guardado en /Users/santiago/Desktop/Prueba Técnica – Jesús Santiago Velasco/output/reporte_errores.csv (6 incidencias)
+2026-10-19 22:52:06,625 | INFO | Proceso terminado: 14 CFDI incluidos en el reporte y 6 incidencias.
+2026-10-19 22:52:40,204 | INFO | Iniciando revisión de CFDI en /Users/santiago/Desktop/Prueba Técnica – Jesús Santiago Velasco/cfdis
+2026-10-19 22:52:40,206 | WARNING | factura_08.xml: no existe el archivo
+2026-10-19 22:52:40,206 | WARNING | factura_09.xml: no existe el archivo
+2026-10-19 22:52:40,210 | WARNING | factura_19.xml: xml dañado: unclosed token: line 6, column 4
+2026-10-19 22:52:40,211 | WARNING | factura_20.xml: error: no es cfdi, tag: Pedido
+2026-10-19 22:52:40,221 | WARNING | factura_04.xml: uuid duplicado C0433CBD-7DAB-E929-C4A3-34BFC6CD75E9 (original: factura_03.xml), se descarta
+2026-10-19 22:52:40,221 | WARNING | factura_11.xml: uuid duplicado 7608D942-5D11-1A9D-5E6C-9992B5FB12E0 (original: factura_10.xml), se descarta
+2026-10-19 22:52:40,335 | INFO | Reporte de errores guardado en /Users/santiago/Desktop/Prueba Técnica – Jesús Santiago Velasco/output/reporte_errores.csv (6 incidencias)
+2026-10-19 22:52:40,335 | INFO | Proceso terminado: 14 CFDI incluidos en el reporte y 6 incidencias.
+2026-10-19 22:55:13,559 | INFO | Iniciando revisión de CFDI en /Users/santiago/Desktop/Prueba Técnica – Jesús Santiago Velasco/cfdis
+2026-10-19 22:55:13,562 | WARNING | factura_08.xml: no existe el archivo
+2026-10-19 22:55:13,562 | WARNING | factura_09.xml: no existe el archivo
+2026-10-19 22:55:13,566 | WARNING | factura_19.xml: xml dañado: unclosed token: line 6, column 4
+2026-10-19 22:55:13,566 | WARNING | factura_20.xml: error: no es cfdi, tag: Pedido
+2026-10-19 22:55:13,580 | WARNING | factura_04.xml: uuid duplicado C0433CBD-7DAB-E929-C4A3-34BFC6CD75E9 (original: factura_03.xml), se descarta
+2026-10-19 22:55:13,582 | WARNING | factura_11.xml: uuid duplicado 7608D942-5D11-1A9D-5E6C-9992B5FB12E0 (original: factura_10.xml), se descarta
+2026-10-19 22:55:13,726 | INFO | Reporte de errores guardado en /Users/santiago/Desktop/Prueba Técnica – Jesús Santiago Velasco/output/reporte_errores.csv (6 incidencias)
+2026-10-19 22:55:13,726 | INFO | Proceso terminado: 14 CFDI incluidos en el reporte y 6 incidencias.
+2026-10-19 22:58:01,132 | INFO | Iniciando revisión de CFDI en /Users/santiago/Desktop/Prueba Técnica – Jesús Santiago Velasco/cfdis
+2026-10-19 22:58:01,136 | WARNING | factura_08.xml: no existe el archivo
+2026-10-19 22:58:01,136 | WARNING | factura_09.xml: no existe el archivo
+2026-10-19 22:58:01,143 | WARNING | factura_19.xml: xml dañado: unclosed token: line 6, column 4
+2026-10-19 22:58:01,144 | WARNING | factura_20.xml: error: no es cfdi, tag: Pedido
+2026-10-19 22:58:01,171 | WARNING | UUID duplicado; se descarta una factura
+2026-10-19 22:58:01,173 | WARNING | UUID duplicado; se descarta una factura
+2026-10-19 22:58:01,339 | INFO | Reporte de errores guardado en /Users/santiago/Desktop/Prueba Técnica – Jesús Santiago Velasco/output/reporte_errores.csv (6 incidencias)
+2026-10-19 22:58:01,339 | INFO | Proceso terminado: 14 CFDI incluidos en el reporte y 6 incidencias.
+2026-10-19 23:02:15,626 | INFO | Iniciando revisión de CFDI en /Users/santiago/Desktop/Prueba Técnica – Jesús Santiago Velasco/cfdis
+2026-10-19 23:02:15,631 | WARNING | factura_08.xml: no existe el archivo
+2026-10-19 23:02:15,631 | WARNING | factura_09.xml: no existe el archivo
+2026-10-19 23:02:15,632 | WARNING | factura_19.xml: xml dañado: unclosed token: line 6, column 4
+2026-10-19 23:02:15,632 | WARNING | factura_20.xml: error: no es cfdi, tag: Pedido
+2026-10-19 23:02:15,639 | WARNING | Se descartaron 2 facturas con UUID duplicado
+2026-10-19 23:02:15,744 | INFO | Reporte de errores guardado en /Users/santiago/Desktop/Prueba Técnica – Jesús Santiago Velasco/output/reporte_errores.csv (6 incidencias)
+2026-10-19 23:02:15,744 | INFO | Proceso terminado: 14 CFDI incluidos en el reporte y 6 incidencias.
+2026-10-19 23:08:36,748 | WARNING | factura_08.xml: no existe el archivo
+2026-10-19 23:08:36,748 | WARNING | factura_09.xml: no existe el archivo
+2026-10-19 23:08:36,750 | WARNING | factura_19.xml: xml dañado: unclosed token: line 6, column 4
+2026-10-19 23:08:36,751 | WARNING | factura_20.xml: error: no es cfdi, tag: Pedido
+2026-10-19 23:08:36,760 | WARNING | Se descartaron 2 facturas con UUID duplicado
+2026-10-19 23:08:36,934 | INFO | Reporte de errores guardado en /Users/santiago/Desktop/Prueba Técnica – Jesús Santiago Velasco/output/reporte_errores.csv (6 incidencias)
+2026-10-19 23:08:36,934 | INFO | Proceso terminado: 14 facturas, 6 incidencias
+2026-10-19 23:13:59,433 | WARNING | factura_08.xml: no existe el archivo
+2026-10-19 23:13:59,433 | WARNING | factura_09.xml: no existe el archivo
+2026-10-19 23:13:59,435 | WARNING | factura_19.xml: xml dañado: unclosed token: line 6, column 4
+2026-10-19 23:13:59,435 | WARNING | factura_20.xml: error: no es cfdi, tag: Pedido
+2026-10-19 23:13:59,443 | WARNING | Se descartaron 2 facturas con UUID duplicado
+2026-10-19 23:13:59,529 | INFO | Reporte de errores guardado en /Users/santiago/Desktop/Prueba Técnica – Jesús Santiago Velasco/output/reporte_errores.csv (6 incidencias)
+2026-10-19 23:13:59,529 | INFO | Proceso terminado: 14 facturas, 6 incidencias
+2026-10-19 23:15:51,043 | WARNING | factura_08.xml: no existe el archivo
+2026-10-19 23:15:51,043 | WARNING | factura_09.xml: no existe el archivo
+2026-10-19 23:15:51,046 | WARNING | factura_19.xml: xml dañado: unclosed token: line 6, column 4
+2026-10-19 23:15:51,046 | WARNING | factura_20.xml: error: no es cfdi, tag: Pedido
+2026-10-19 23:15:51,051 | WARNING | Se descartaron 2 facturas con UUID duplicado
+2026-10-19 23:15:51,145 | INFO | Reporte de errores guardado en /Users/santiago/Desktop/Prueba Técnica – Jesús Santiago Velasco/output/reporte_errores.csv (6 incidencias)
+2026-10-19 23:15:51,145 | INFO | Proceso terminado: 14 facturas, 6 incidencias

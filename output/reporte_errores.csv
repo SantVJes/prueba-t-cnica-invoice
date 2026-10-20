@@ -1,0 +1,7 @@
+﻿Archivo,Error
+factura_08.xml,no existe el archivo
+factura_09.xml,no existe el archivo
+factura_19.xml,"xml dañado: unclosed token: line 6, column 4"
+factura_20.xml,"error: no es cfdi, tag: Pedido"
+duplicados,UUID duplicado; se descarta una factura
+duplicados,UUID duplicado; se descarta una factura
