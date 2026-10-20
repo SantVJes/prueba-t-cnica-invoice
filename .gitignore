@@ -1,0 +1,19 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Sistema / editores
+.DS_Store
+.vscode/
+.idea/
+
+# Archivos temporales de Excel
+~$*.xlsx
+
+# Instrucciones confidenciales de la prueba (no subir al repo)
+Instrucciones_Prueba_Tecnica_KMG.pdf
