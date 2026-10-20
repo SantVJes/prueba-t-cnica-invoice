@@ -1,7 +1,9 @@
-from logging import root
+import logging
 import xml.etree.ElementTree as ET
 from pathlib import Path
 import pandas as pd
+
+logger = logging.getLogger(__name__)
 
 # namespaces que vienen en el xml
 ns = {
@@ -42,21 +44,39 @@ def leer_carpeta(carpeta):
     facturas = []
     errores = []
 
+    # revisamos los 20 archivos esperados
     for i in range(1, 21):
         ruta = Path(carpeta) / f"factura_{i:02d}.xml"
 
-        #saber si el archivo existe, si no existe se agrega a la lista de errores y se continua con el siguiente
         if not ruta.exists():
-            errores.append([ruta.name, "no existe el archivo"])
+
+            mensaje = "no existe el archivo"
+            errores.append([ruta.name, mensaje])
+
+            # registramos en el log los archivos que no se encontraron
+            logger.warning("%s: %s", ruta.name, mensaje)
             continue
 
         try:
+
             facturas.append(leer_xml(ruta))
-        except ET.ParseError as e: #xml parse error
-            errores.append([ruta.name, "xml dañado: " + str(e)])
-        except Exception as e: # cualquier otro error
-            errores.append([ruta.name, "error: " + str(e)])
+
+        except ET.ParseError as e:
+
+            mensaje = "xml dañado: " + str(e)
+            errores.append([ruta.name, mensaje])
+            # registramos en el log los errores de lectura del XML
+            logger.warning("%s: %s", ruta.name, mensaje)
+
+        except Exception as e:
+            mensaje = "error: " + str(e)
+
+            errores.append([ruta.name, mensaje])
+            
+            # registramos otros errores sin detener la lectura
+            logger.warning("%s: %s", ruta.name, mensaje)
 
 
-    df = pd.DataFrame(facturas, columns=columnas) 
+    # reunimos las facturas válidas en una tabla
+    df = pd.DataFrame(facturas, columns=columnas)
     return df, errores

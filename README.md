@@ -19,14 +19,20 @@ python main.py
 ```
 cfdis/              # Archivos XML de entrada (CFDI)
 src/                # Código fuente de la solución, organizado en módulos
-output/             # Resultados generados: Excel y log de incidencias
+output/             # Resultados generados: Excel, incidencias CSV y log de ejecución
 main.py             # Punto de entrada; ejecuta el flujo completo
 requirements.txt    # Dependencias del proyecto
 ```
 
-## Decisiones técnicas
+## Archivos generados
 
-_Pendiente._
+Al ejecutar `python main.py`, los resultados se guardan automáticamente en `output/`:
+
+- `reporte_cfdi.xlsx`: detalle de CFDI procesados y resumen por proveedor.
+- `reporte_errores.csv`: incidencias encontradas (por ejemplo, XML dañados, archivos faltantes o UUID duplicados). Se genera incluso si no hay incidencias.
+- `ejecucion.log`: registro de cada ejecución; incluye el inicio, las incidencias y el resultado final. Se conserva y añade al final en ejecuciones posteriores.
+
+Para consultarlos, abre la carpeta `output/` en el explorador de archivos o abre el CSV y el log con un editor de texto o una hoja de cálculo.
 
 ## Uso de herramientas de IA
 
